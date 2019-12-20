@@ -1,0 +1,15 @@
+//
+//  Bigjpg_iOS_Prefix.pch
+//  Bigjpg_iOS
+//
+//  Created by lqq on 2019/12/20.
+//  Copyright © 2019 lqq. All rights reserved.
+//
+
+#ifndef Bigjpg_iOS_Prefix_pch
+#define Bigjpg_iOS_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Bigjpg_iOS_Prefix_pch */
