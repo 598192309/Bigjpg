@@ -276,7 +276,7 @@
     [LSVProgressHUD show];
     __weak __typeof(self) weakSelf = self;
     [I_Enlarge deleteEnlargeTasks:ids success:^{
-        [LSVProgressHUD showInfoWithStatus:LanguageStrings(@"succ")];
+        [LSVProgressHUD showSuccessWithStatus:LanguageStrings(@"succ")];
         [weakSelf.userInfo.historyList removeObjectAtIndex:index];
         [weakSelf.customTableView reloadData];
     } failure:^(NSError *error) {

@@ -83,35 +83,20 @@
     [self.customTableAlertView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.mas_equalTo([UIApplication sharedApplication].keyWindow);
     }];
-    [self.customTableAlertView configUIWithArr:@[@"简体中文",@"繁體中文",@"日本語",@"English",@"Русский",@"Türkçe",@"Deutsch"]];
+    NSDictionary *lngDic = [[[ConfManager shared] lng_dict] safeObjectForKey:@"lng"];
+    NSArray *arr = lngDic.allValues;
+    [self.customTableAlertView configUIWithArr:arr];
     self.customTableAlertView.CustomTableAlertChooseBlock = ^(NSInteger index, NSString * _Nonnull str) {
         [weakSelf.customTableAlertView removeFromSuperview];
         weakSelf.customTableAlertView = nil;
         NSString *language;
-        switch (index) {
-            case 0:
-                language = @"zh";
+        NSArray *allKeys = lngDic.allKeys;
+        for (int i = 0 ; i < allKeys.count; i++) {
+            NSString *value = lngDic[allKeys[i]];
+            if ([value isEqualToString:str]) {
+                language = allKeys[i];
                 break;
-            case 1:
-                language = @"tw";
-                break;
-            case 2:
-                language = @"jp";
-                break;
-            case 3:
-                language = @"en";
-                break;
-            case 4:
-                language = @"ru";
-                break;
-            case 5:
-                language = @"tr";
-                break;
-            case 6:
-                language = @"de";
-                break;
-            default:
-                break;
+            }
         }
         [[ConfManager shared] changeLocalLanguage:language];
         [weakSelf.languageBtn setTitle:str forState:UIControlStateNormal];

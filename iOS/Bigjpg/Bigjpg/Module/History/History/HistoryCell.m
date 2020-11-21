@@ -136,7 +136,7 @@
         [I_Enlarge downloadPictureWithUrls:@[_item.output] isAutoDown:NO];
     } else if([_item.status isEqualToString:@"error"]) {
         [I_Enlarge retryEnlargeTasks:@[_item.fid] success:^{
-            [LSVProgressHUD showInfoWithStatus:@"succ"];
+            [LSVProgressHUD showSuccessWithStatus:LanguageStrings(@"succ")];
             POST_NOTIFY(kRetrySuccessNoti, nil);
         } failure:^(NSError *error) {
             [LSVProgressHUD showError:error];

@@ -111,7 +111,7 @@
         [I_Account loginOutOnSuccessOnSuccess:^{
             sender.userInteractionEnabled = YES;
             [weakSelf.navigationController popViewControllerAnimated:NO];
-            [LSVProgressHUD showInfoWithStatus:LanguageStrings(@"reset_success")];
+            [LSVProgressHUD showSuccessWithStatus:LanguageStrings(@"reset_success")];
         }];
 
     } failure:^(NSError *error) {

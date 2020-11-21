@@ -316,7 +316,7 @@
 - (void)image:(UIImage *)image didFinishSavingWithError:(NSError *)error contextInfo:(void *)contextInfo
 {
     if(!error){
-        [LSVProgressHUD showInfoWithStatus:NSLocalizedString(@"二维码图片已保存至相册", nil)];
+        [LSVProgressHUD showSuccessWithStatus:NSLocalizedString(@"二维码图片已保存至相册", nil)];
     }else{
         [LSVProgressHUD showInfoWithStatus:NSLocalizedString(@"二维码图片保存至相册失败", nil)];
         
@@ -329,7 +329,7 @@
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
 
-    return 6;
+    return 7;
 
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -354,6 +354,8 @@
 
     } else if (indexPath.row == 5) {
         [cell refreshUIWithTitle:@"Privacy Policy"];
+    } else if (indexPath.row == 6) {
+        [cell refreshUIWithTitle:LanguageStrings(@"clear_cache")];
     }
   
     return cell;
@@ -402,6 +404,16 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             
+            break;
+        case 6: {
+            NSString *path = [[LqSandBox docPath] lq_subDirectory:@"pic"];
+            NSFileManager *fileManager = [NSFileManager defaultManager];
+            [fileManager removeItemAtPath:path error:nil];
+            
+            [[SDWebImageManager sharedManager].imageCache clearWithCacheType:SDImageCacheTypeAll completion:^{
+                [LSVProgressHUD showSuccessWithStatus:LanguageStrings(@"succ")];
+            }];
+        }
             break;
             
         default:

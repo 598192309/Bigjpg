@@ -25,7 +25,7 @@
         //初始化设置conf
         sharedInstance.conf = conf;
         //初始化设置localLanguage
-        sharedInstance.localLanguage = [ConfManager defaultLocalLanguage];
+        sharedInstance.localLanguage = [sharedInstance defaultLocalLanguage];
         
         //请求服务端Conf
         [I_Account requestConfOnSuccess:^(NSDictionary * _Nonnull confDic) {
@@ -122,7 +122,7 @@
 }
 
 
-+ (NSString *)defaultLocalLanguage
+- (NSString *)defaultLocalLanguage
 {
     NSUserDefaults *def = [NSUserDefaults standardUserDefaults];
     NSString *language = [def objectForKey:@"localLanguage"];
@@ -143,7 +143,20 @@
             return @"de";
         } else if ([currentLanguage containsString:@"ru-"]) {//俄罗斯
             return @"ru";
+        } else if ([currentLanguage containsString:@"ar-"]) {//阿拉伯
+            return @"ar";
+        } else if ([currentLanguage containsString:@"id-"]) {//印尼
+            return @"id";
         } else {
+            NSDictionary *lngDic = [[self lng_dict] safeObjectForKey:@"lng"];
+            NSArray *allKeys = lngDic.allKeys;
+            NSString *lanPre = [currentLanguage componentsSeparatedByString:@"-"].firstObject;
+            for (NSString *str in allKeys) {
+                if ([str isEqualToString:lanPre]) {
+                    return lanPre;
+                }
+            }
+            
             return @"en";
         }
     }

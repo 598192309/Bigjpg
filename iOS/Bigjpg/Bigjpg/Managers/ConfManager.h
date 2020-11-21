@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 //修改语言
 - (void)changeLocalLanguage:(NSString *)language;
-
+- (NSDictionary *)lng_dict;
 //根据key来获取值
 - (id)contentWith:(NSString *)key;
 //确定是字符串时可以使用此方法
