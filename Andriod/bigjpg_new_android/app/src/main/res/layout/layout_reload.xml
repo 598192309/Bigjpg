@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/reload_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dip"
+        android:gravity="center"
+        android:text="@string/error"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/font_48" />
+
+
+    <Button
+        android:id="@+id/reload_btn"
+        style="@style/GrayLargeButton"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:minWidth="180dp"
+        android:background="@drawable/btn_round_border_bg"
+        android:gravity="center"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:text="@string/retry"
+        android:textColor="@color/text_black" />
+</LinearLayout>

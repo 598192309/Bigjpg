@@ -1,0 +1,81 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        android:cacheColorHint="@android:color/transparent"
+        android:clipToPadding="true"
+        android:gravity="center"
+        android:horizontalSpacing="2dip"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="@integer/image_list_grid_column"
+        android:paddingTop="2dip"
+        android:paddingBottom="2dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="2dip" />
+
+    <FrameLayout
+        android:id="@+id/group_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="48dp"
+        android:visibility="gone">
+
+        <View
+            android:id="@+id/group_shadow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/translucent_background"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:layout_gravity="bottom"
+            android:background="@color/image_chooser_bg"
+            android:minHeight="220dp">
+
+            <ListView
+                android:id="@+id/group_list"
+                style="@style/ListViewCommon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@null"
+                android:paddingLeft="10dp"
+                android:paddingTop="5dp"
+                android:paddingRight="10dp"/>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@color/toolbar_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:drawableRight="@drawable/iv_more_image"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:lines="1"
+            android:maxWidth="200dp"
+            android:minWidth="60dp"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Bigjpg
+
+  Created by lqq on 2020/1/6.
+  Copyright © 2020 lqq. All rights reserved.
+*/
+NSPhotoLibraryAddUsageDescription = "ПОЗВОЛИТЕ Bigjpg сохранить изображения в свой альбом";
+
+NSPhotoLibraryUsageDescription = "Пожалуйста, разрешите Bigjpg получить доступ к вашему альбому для загрузки изображений";

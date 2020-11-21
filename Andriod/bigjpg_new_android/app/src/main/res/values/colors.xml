@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#09ba07</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="translucent_background">#60000000</color>
+    <color name="little_transparent">#45000000</color>
+    <color name="text_black">#ff353535</color>
+    <color name="text_deep_gray">#FF757575</color>
+    <color name="text_gray">#FF999999</color>
+    <color name="text_light_gray">#bdbdbd</color>
+    <color name="light_gray">#33999999</color>
+    <color name="red">#FFFF0000</color>
+    <color name="bg_green">#FF4CD864</color>
+    <color name="black">#FF000000</color>
+    <color name="gray">#FF757575</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="line0_color">#dddddd</color>
+
+    <color name="btn_blue">#2196f3</color>
+    <color name="btn_blue_press">#bb2196f3</color>
+    <color name="btn_purple">#9c28b1</color>
+    <color name="btn_purple_press">#bb9c28b1</color>
+    <color name="btn_green">#09ba07</color>
+    <color name="max_choose">#fe5722</color>
+    <color name="bg_selected">#e6e6e6</color>
+
+    <color name="app_bg">@color/white</color>
+    <color name="text_white">@color/white</color>
+    <color name="toolbar_bg">#F9F9F9</color>
+    <color name="main_tab_bg">#F9F9F9</color>
+    <color name="image_chooser_bg">#FFFFFF</color>
+    <color name="dialog_bg">#FFFFFF</color>
+    <color name="main_tab_text_normal">#FFd2d2d2</color>
+    <color name="shape_light_gray">#eeeeee</color>
+
+    <color name="btn_yellow">#F9C713</color>
+    <color name="btn_yellow_press">#CFBE06</color>
+    <color name="text_red">#FFFF0000</color>
+    <color name="splash_bg">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Bigjpg
+
+  Created by lqq on 2020/1/6.
+  Copyright © 2020 lqq. All rights reserved.
+*/
+NSPhotoLibraryAddUsageDescription = "請允許 Bigjpg 保存圖片到你的相冊";
+
+NSPhotoLibraryUsageDescription = "請允許 Bigjpg 將訪問您相冊，以便選擇圖片上傳";

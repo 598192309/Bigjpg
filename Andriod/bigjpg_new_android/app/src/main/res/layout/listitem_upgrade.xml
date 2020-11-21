@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/shape_white_round_cornor"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/upgrade_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_item_gray_top"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/upgrade_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="15dp"
+            android:lineSpacingExtra="2dp"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <com.bigjpg.ui.widget.CornerLabelView
+            android:id="@+id/upgrade_hot"
+            android:visibility="gone"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            app:bg_color="#FE5722"
+            app:position="right_top"
+            app:side_length="40dp"
+            app:text="@string/hot"
+            app:text_color="@color/text_white"
+            app:text_size="14dp" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/upgrade_pay_1"
+        style="@style/GreenLargeButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/buy_wechat" />
+
+    <Button
+        android:id="@+id/upgrade_pay_2"
+        style="@style/GreenLargeButton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/buy_alipay" />
+
+
+    <Button
+        android:id="@+id/upgrade_pay_3"
+        style="@style/GrayLargeButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/btn_round_border_bg"
+        android:text="@string/buy_paypal"
+        android:textColor="@color/text_black" />
+</LinearLayout>

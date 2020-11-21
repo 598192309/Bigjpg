@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_dialog_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dlg_title_tv"
+        style="@style/AlertDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:textColor="@color/text_black"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dlg_content_tv"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:textColor="@color/text_deep_gray"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/dlg_content_small"
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingTop="30dp"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingBottom="12dp"
+        android:textColor="@color/text_black"
+        android:textSize="17dp"
+        android:visibility="gone"
+        tools:text="2312312312312312313" />
+
+    <include layout="@layout/layout_dialog_button_material" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="30dp"
+        android:text="@string/qr_pay"
+        android:textColor="@color/text_gray" />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/qr_code"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        tools:background="@color/text_gray" />
+
+    <Button
+        android:id="@+id/qr_save"
+        style="@style/GreenLargeButton"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_green"
+        android:text="@string/save_qr_pay"/>
+
+    <Button
+        android:id="@+id/start_pay"
+        android:visibility="gone"
+        style="@style/GrayLargeButton"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_round_border_bg"
+        android:text="@string/buy_alipay"
+        android:textColor="@color/text_black" />
+
+</LinearLayout>

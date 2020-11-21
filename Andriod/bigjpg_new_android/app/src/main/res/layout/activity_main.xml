@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.bigjpg.ui.widget.SwipeViewPager
+        android:id="@+id/main_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/main_tab_group"
+        android:orientation="vertical" />
+
+    <RadioGroup
+        android:id="@+id/main_tab_group"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_tab_bg"
+        android:orientation="horizontal">
+
+        <com.bigjpg.ui.widget.IconTabItem
+            android:id="@+id/main_home"
+            style="@style/MainTabIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@drawable/tab_home_icon"
+            android:checked="true"
+            android:gravity="center"
+            android:text="@string/begin"
+            android:textColor="@drawable/text_color_font1"
+            android:textSize="12dp" />
+
+        <com.bigjpg.ui.widget.IconTabItem
+            android:id="@+id/main_history"
+            style="@style/MainTabIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@drawable/tab_history_icon"
+            android:gravity="center"
+            android:text="@string/log"
+            android:textColor="@drawable/text_color_font1"
+            android:textSize="12dp" />
+
+        <com.bigjpg.ui.widget.IconTabItem
+            android:id="@+id/main_setting"
+            style="@style/MainTabIcon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:button="@drawable/tab_setting_icon"
+            android:gravity="center"
+            android:text="@string/conf"
+            android:textColor="@drawable/text_color_font1"
+            android:textSize="12dp" />
+    </RadioGroup>
+
+
+</RelativeLayout>

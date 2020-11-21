@@ -1,0 +1,145 @@
+<resources>
+
+    <string name="app_name">Bigjpg Picture Enlarger</string>
+    <string name="permission_tip">Storage permissions required</string>
+    <string name="no_data">no data</string>
+
+    <string name="ch_des">des</string>
+    <string name="auto_download">Automatically download enlarged pictures</string>
+    <string name="password_not_same">Two input passwords must be consistent</string>
+    <string name="all_image">All pictures</string>
+    <string name="image">Pictures</string>
+    <string name="no_image">No picture</string>
+    <string name="no_sdcard">No sdcard</string>
+    <string name="max_choose_images">max %d pictures</string>
+    <string name="image_count">%1$s</string>
+    <string name="network_error">Network error</string>
+    <string name="press_again_exit">Press again to exit</string>
+    <string name="language">Language</string>
+    <string name="night_mode">Night mode</string>
+
+    <string name="loading">Loading</string>
+
+    <string name="file">File</string>
+    <string name="params">Configuration</string>
+    <string name="version_free">Free</string>
+    <string name="version_basic">Basic</string>
+    <string name="version_standard">Standard</string>
+    <string name="version_premium">Premium</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+
+    <string name="reg_new">Create new Bigjpg account</string>
+    <string name="max_limit">Max 100 images process at the same time</string>
+    <string name="feedback">Feedback &#38; Contact i@bigjpg.com</string>
+    <string name="photo">Photo</string>
+    <string name="over">Over Size</string>
+    <string name="body_title">AI Image Enlarger</string>
+    <string name="buy_wechatalipay">WeChat Pay</string>
+    <string name="keywords">bigjpg, waifu, waifu2x, waifu2x, miku, CNN, image enlarge, image enlarge, fangda, waifu github, upscaling, Image Super-Resolution Using Deep Convolutional Networks, Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Anime-style art, without losing quality, PhotoZoom pro, photoshop cc, image enhance, image enhance</string>
+    <string name="input_new_password">Enter new password</string>
+    <string name="upgrade">Upgrade</string>
+    <string name="title">Bigjpg - AI Super-Resolution Image lossless enlarging / upscaling tool using waifu2x Deep Convolutional Neural Networks</string>
+
+    <string name="reset_error">Reset failed, please retry</string>
+    <string name="pay_again">Retry</string>
+    <string name="num_limit">Free version can only process 2 images simultaneously</string>
+    <string name="pay_error">Can not pay</string>
+    <string name="retry_sure">Confirm retry?</string>
+    <string name="save_to">Picture save to</string>
+    <string name="carton">Artwork</string>
+    <string name="month_limit">The number of image you have enlarged this month has reached the limit</string>
+    <string name="password_error">Password Incorrect</string>
+    <string name="downloading">Downloading...</string>
+    <string name="new_version">New version available</string>
+    <string name="checking">Checking new version</string>
+    <string name="faq">FAQ</string>
+    <string name="user_not_exist">User not exist</string>
+    <string name="minute"> Min</string>
+    <string name="login_reg">Log in / Sign Up</string>
+
+
+    <string name="upload">Uploading</string>
+    <string name="app_download">App Download</string>
+    <string name="batch_btn">Enlarge all images below</string>
+    <string name="reset_success">Reset success</string>
+    <string name="used">Used this month: </string>
+    <string name="send_email">Send reset email</string>
+    <string name="finish">Completed</string>
+    <string name="download">Download</string>
+    <string name="lng">English</string>
+    <string name="retry">Retry</string>
+    <string name="upgrade_err">After upgrade you can Enlarge by 8x / 16x and be much faster!</string>
+
+    <string name="batch_download">Download All</string>
+    <string name="qr_pay">After save this QR, use Wechat or Alipay app to scan</string>
+    <string name="limit">Limits: File size 10MB, Resolution 3000x3000px</string>
+    <string name="donate">Donate</string>
+    <string name="noise">Noise Reduction</string>
+    <string name="sendmail">Please send email to i@bigjpg.com</string>
+    <string name="close_alert">After closing and reopening the website, registered users can view enlarged images in the History section, while users who are not registered will lose the images that were not yet downloaded.</string>
+    <string name="expire">Expired</string>
+    <string name="logout">Logout</string>
+    <string name="pic_type">Image type</string>
+    <string name="no_upgrade">login to view enlarge history</string>
+    <string name="about">About </string>
+    <string name="pay_result">Pay Result</string>
+    <string name="link_expire">Reset link expired, please retrieve</string>
+    <string name="login_inquery">Want to enlarge more images faster and more stably? Login!</string>
+    <string name="not_notify">Skip this version</string>
+    <string name="upload_error">Upload error, please retry</string>
+    <string name="username_like">Please input a valid email</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="upgrade_16">Want 8x / 16x? Upgrade!</string>
+    <string name="begin_download">Begin download</string>
+    <string name="buy_paypal">Paypal Payment</string>
+    <string name="save_qr_pay">Save QR</string>
+    <string name="cancel">Cancel</string>
+    <string name="log">History</string>
+    <string name="visit">Visit bigjpg.com</string>
+    <string name="low">Low</string>
+    <string name="until">Until</string>
+    <string name="no_succ"> Error</string>
+    <string name="configure">Configuration</string>
+
+    <string name="size_limit">Picture size exceed limit</string>
+    <string name="retrying">Retrying</string>
+    <string name="ok">OK</string>
+    <string name="highest">Highest</string>
+    <string name="reset">Forget password?</string>
+    <string name="none">None</string>
+    <string name="buy_wechat">WeChat Payment</string>
+    <string name="del">Delete</string>
+    <string name="error">Error, please retry</string>
+    <string name="app_qr_scan">Scan QR download bigjpg.com App</string>
+    <string name="fileupload">Select File</string>
+    <string name="conf">Configuration</string>
+    <string name="scan">Use WeChat to Scan</string>
+    <string name="process">Enlarging</string>
+    <string name="demo">Demo images</string>
+    <string name="share">Share bigjpg.com</string>
+    <string name="high">High</string>
+    <string name="pay_help">You can transfer to our Paypal <span class="label label-primary">isxieyang@gmail.com</span> , we will upgrade your bigjpg account :-)</string>
+    <string name="check_email">Please check your email</string>
+
+    <string name="again">Confirm New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="mid">Medium</string>
+    <string name="hot">Hot Sales</string>
+    <string name="begin">Start</string>
+    <string name="sure">Confirm delete?</string>
+    <string name="description">Bigjpg - Image Super-Resolution for Anime-style artworks using the opensource waifu2x Deep Convolutional Neural Networks without quality loss. Photos are also supported.</string>
+    <string name="alert">Alert</string>
+    <string name="input_username">Input username</string>
+    <string name="succ">Success</string>
+    <string name="plz_login">Please login first</string>
+    <string name="pay_succ">Success</string>
+    <string name="type_error">Picture type error</string>
+    <string name="contact">Feedback &#38; Contact</string>
+    <string name="upscaling">Upscaling</string>
+    <string name="fail">Failed</string>
+    <string name="buy_alipay">Alipay Payment</string>
+
+</resources>

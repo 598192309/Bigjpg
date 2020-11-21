@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_v"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="vertical"/>
+
+    <RelativeLayout
+        android:id="@+id/loading_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <ProgressBar
+            style="@style/MyProgressBar"
+            android:id="@android:id/progress"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <ViewStub
+        android:id="@+id/reload_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/reload_view"
+        android:layout="@layout/layout_reload" />
+
+    <ViewStub
+        android:id="@+id/empty_viewstub"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:inflatedId="@+id/empty_view"
+        android:layout="@layout/layout_empty_text" />
+
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+
+</LinearLayout>

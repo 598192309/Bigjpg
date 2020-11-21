@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/history_batch_download_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:minWidth="70dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/ok"
+            android:textColor="@color/text_white"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/history_batch_download"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/batch_download"
+            android:textColor="@color/text_white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/history_batch_download_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/btn_round_border_bg"
+            android:gravity="center"
+            android:minWidth="70dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:text="@string/cancel"
+            android:textColor="@color/text_black"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="@dimen/history_filename_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/file"
+            android:textColor="@color/text_black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/params"
+            android:textColor="@color/text_black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="@dimen/history_btn_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/download"
+            android:textColor="@color/text_black"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

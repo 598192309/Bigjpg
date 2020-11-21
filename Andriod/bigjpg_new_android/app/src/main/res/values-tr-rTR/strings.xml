@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Bigjpg Resim Büyütücü</string>
+    <string name="permission_tip">depolama iznine ihtiyacım var</string>
+    <string name="no_data">no data</string>
+
+    <string name="ch_des">des</string>
+    <string name="auto_download">Büyütülmüş görüntüleri otomatik olarak indir</string>
+    <string name="password_not_same">Tutarsız şifre</string>
+    <string name="all_image">Tüm resimler</string>
+    <string name="image">görüntü</string>
+    <string name="no_image">görüntü yok</string>
+    <string name="no_sdcard">sd kart yok</string>
+    <string name="max_choose_images">Maksimum isteğe bağlı %d</string>
+    <string name="image_count">%1$s</string>
+    <string name="network_error">ağ hatası</string>
+    <string name="press_again_exit">Programdan çıkmak için tekrar basın</string>
+    <string name="language">dil</string>
+    <string name="night_mode">gece modu</string>
+
+    <!--configs-->
+
+    <string name="loading">Yükleniyor</string>
+
+    <string name="file">dosya</string>
+    <string name="params">Parametre</string>
+    <string name="version_free">Beleş</string>
+    <string name="version_basic">Temel</string>
+    <string name="version_standard">Sıradan</string>
+    <string name="version_premium">Gelişmiş</string>
+
+    <string name="email">Email</string>
+    <string name="password">Şifre</string>
+
+
+    <string name="reg_new">Yeni Bigjpg Hesabı Oluştur</string>
+    <string name="max_limit">Aynı anda 100 adet görüntü işlemi</string>
+    <string name="feedback">Geribildirim &#38; İletişim i@bigjpg.com</string>
+    <string name="photo">Fotoğraf</string>
+    <string name="over">Ebat</string>
+    <string name="body_title">AI Resim Büyütücü</string>
+    <string name="buy_wechatalipay">WeChat Öde</string>
+    <string name="keywords">bigjpg, waifu, waifu2x, waifu2x, miku, CNN, resim boyutlandırma, fotoğraf boyutlandırma, fangda, waifu github, artırma, Kayıpsız resim boyutlandırma Deep Convolutional Networks, Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Anime tarzı eser, Kaliteden ödün vermeyen, PhotoZoom pro, photoshop cc, artırılmış resim, artırılmış resim</string>
+    <string name="input_new_password">Yeni şifre giriniz</string>
+    <string name="upgrade">Terfi</string>
+    <string name="title">Bigjpg - AI Muazzam derecede yeniden kayıpsız resim boyutlandırma / waifu2x Deep Convolutional Neural Networks ölçeklendirme aracından yararlanılmaktadır</string>
+
+
+    <string name="reset_error">Sıfırlama Başarısız, Lütfen tekrarlayın</string>
+    <string name="pay_again">Tekrarla</string>
+    <string name="num_limit">Beleş sürüm aynı anda yalnızca 2 görüntü işleyebilir</string>
+    <string name="pay_error">Ödeme yapılamıyor</string>
+    <string name="retry_sure">Tekrarlama Onayı？</string>
+    <string name="save_to">Resmi Kaydet</string>
+    <string name="carton">Sanat Eseri</string>
+    <string name="month_limit">Bu ay büyütebileceğiniz resim sınırına ulaştınız</string>
+    <string name="password_error">Hatalı Şifre</string>
+    <string name="downloading">İndiriliyor...</string>
+    <string name="new_version">Yeni Sürüm Kullanılabilir</string>
+    <string name="checking">Güncellemeleri Denetle</string>
+    <string name="faq">SSS</string>
+    <string name="user_not_exist">Kullanıcı mevcut değil</string>
+    <string name="minute">Asgari</string>
+    <string name="login_reg">Giriş Yap / Üye Ol</string>
+
+
+    <string name="upload">Yükleniyor</string>
+    <string name="app_download">Uygulamayı İndir</string>
+    <string name="batch_btn">Alttaki resimleri topluca büyüt</string>
+    <string name="reset_success">Sıfırlama Başarılı</string>
+    <string name="used">Bu ay kullanılan: </string>
+    <string name="send_email">Sıfırlamak için Email gönder</string>
+    <string name="finish">Tamamlandı</string>
+    <string name="download">İndir</string>
+    <string name="lng">Türkçe</string>
+    <string name="retry">Tekrarla</string>
+    <string name="upgrade_err">Terfi ettikten sonra 8x / 16x ebatlarına daha hızlı ulaşıyor olacaksın!</string>
+
+    <string name="batch_download">Alayını İndir</string>
+    <string name="qr_pay">QR kodu kaydettikten sonra WeChat veya Alipay uygulamalarından taratmak için bu kodu kullanın </string>
+    <string name="limit">Sınırlama: Dosya genişliği 10MB ,Ölçülendirme 3000x3000px</string>
+    <string name="donate">Bağış</string>
+    <string name="noise">Titreşim Azaltma</string>
+    <string name="sendmail">Mail Gönder i@bigjpg.com</string>
+    <string name="close_alert">Web sitemize kayıtlı kullanıcılar oluşturduğu görselleri web sitesini kapatsa dahi tekrar giriş yaptıklarında erişebilirler ancak kayıtdışı kullanıcılar bu imkandan istifade edemezler.</string>
+    <string name="expire">Geçersiz</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="pic_type">Resim Türü</string>
+    <string name="no_upgrade">Büyütme geçmişine bakmak için giriş yapın</string>
+    <string name="about">Takriben</string>
+    <string name="pay_result">Ödeme Neticesi</string>
+    <string name="link_expire">Sıfırlama bağlantısı artık geçersiz,Lütfen işlemi tekrarlayın</string>
+    <string name="login_inquery">Daha hızlı ve kalıcı resimler üretmek ister misiniz? Giriş</string>
+    <string name="not_notify">Bu Sürümü Atla</string>
+    <string name="upload_error">Yükleme hatası, Lütfen sistem saatinizin (veya saat diliminizin) doğru ayarlanıp ayarlanmadığını kontrol edin.</string>
+    <string name="username_like">Lütfen geçerli bir Email adresi giriniz</string>
+
+
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="upgrade_16">İstersen 8x / 16x? Terfi Et!</string>
+    <string name="begin_download">İndirmeyi Başlat</string>
+    <string name="buy_paypal">Paypal Ödeme</string>
+    <string name="save_qr_pay">QR Kodu Kaydet</string>
+    <string name="cancel">İptal</string>
+    <string name="log">Geçmiş</string>
+    <string name="visit">Ziyaret Et bigjpg.com</string>
+    <string name="low">Düşük</string>
+    <string name="until">Kadar</string>
+    <string name="no_succ">Hata</string>
+    <string name="configure">Yapılandırma</string>
+
+    <string name="size_limit">Resin boyutu sınırı aşıyor</string>
+    <string name="retrying">Yeniden deneniyor</string>
+    <string name="ok">Tamam</string>
+    <string name="highest">Üstün</string>
+    <string name="reset">Şifreni mi unuttun?</string>
+    <string name="none">Hiçbiri</string>
+    <string name="buy_wechat">WeChat Öde</string>
+    <string name="del">Sil</string>
+    <string name="error">Hata, lütfen tekrarlayın</string>
+    <string name="app_qr_scan">bigjpg.com uygulamasını indirmek için QR kodu taratın</string>
+    <string name="fileupload">Dosya Seçimi</string>
+    <string name="conf">Yapılandırma</string>
+    <string name="scan">Taramak İçin WeChat Kullanın</string>
+    <string name="process">Büyütülüyor</string>
+    <string name="demo">Görsel Tanıtımları</string>
+    <string name="share">Paylaş bigjpg.com</string>
+    <string name="high">Yüksek</string>
+    <string name="pay_help">Paypal adresimize havale edebilirsin <span class="label label-primary">isxieyang@gmail.com</span> , bigjpg hesabını terfi edeceğiz :-)</string>
+    <string name="check_email">Lütfen Email inizi denetleyin</string>
+
+    <string name="again">Yeni Şifreyi Onayla</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="mid">Orta</string>
+    <string name="hot">Anlık Satışlar</string>
+    <string name="begin">Başlat</string>
+    <string name="sure">Silme Onayı?</string>
+    <string name="description">Bigjpg - Kullanmış olduğu açık kaynaklı waifu2x Deep Convolutional Neural Networks aracının resim kalitesinden hiç ödün vermeden yeniden boyutlandırılan Anime tarzı sanat eserlerinin oluşturulması için kullanılmaktadır ve bununla beraber fotoğraf tarzı resimleride desteklemektedir.</string>
+    <string name="alert">Uyarı</string>
+    <string name="input_username">Rumuz girin</string>
+    <string name="succ">Başarılı</string>
+    <string name="plz_login">Lütfen önce giriş yapın</string>
+    <string name="pay_succ">Başarılı</string>
+    <string name="type_error">Resim türü hatası</string>
+    <string name="contact">Geri Bildirim  &#38; İletişim</string>
+    <string name="upscaling">Artırma</string>
+    <string name="fail">Başarısız</string>
+    <string name="buy_alipay">Alipay Ödeme</string>
+
+
+
+</resources>

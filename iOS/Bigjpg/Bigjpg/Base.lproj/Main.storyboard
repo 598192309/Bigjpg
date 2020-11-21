@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BUh-ja-Ba3">
+                                <rect key="frame" x="20" y="88" width="31" height="30"/>
+                                <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="login:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gyH-br-KlP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t09-v2-mnb">
+                                <rect key="frame" x="20" y="126" width="92" height="30"/>
+                                <state key="normal" title="获取用户信息"/>
+                                <connections>
+                                    <action selector="getUserInfo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FMl-0g-1Pi"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fRr-su-AM7">
+                                <rect key="frame" x="262" y="126" width="132" height="30"/>
+                                <state key="normal" title="用户登录密码d更新"/>
+                                <connections>
+                                    <action selector="updatePwd:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3ne-n9-MaF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xld-V1-0Ff">
+                                <rect key="frame" x="153" y="377.5" width="92" height="30"/>
+                                <state key="normal" title="重试放大任务"/>
+                                <connections>
+                                    <action selector="retryFid:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dtJ-9I-LOE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bDs-ng-dDk">
+                                <rect key="frame" x="232" y="88" width="162" height="30"/>
+                                <state key="normal" title="获取语言配置、oss配置"/>
+                                <connections>
+                                    <action selector="getConf:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p7W-cU-2fj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wqa-at-f7I">
+                                <rect key="frame" x="20" y="377.5" width="123" height="30"/>
+                                <state key="normal" title="查询放大任务状态"/>
+                                <connections>
+                                    <action selector="checkFidStatus:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LS8-H9-138"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKm-B0-O84">
+                                <rect key="frame" x="302" y="377.5" width="92" height="30"/>
+                                <state key="normal" title="删除放大任务"/>
+                                <connections>
+                                    <action selector="deleteFild:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BXV-rd-hWr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aco-mX-fZn">
+                                <rect key="frame" x="20" y="567" width="123" height="30"/>
+                                <state key="normal" title="创建放大任务状态"/>
+                                <connections>
+                                    <action selector="createTask:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OBy-PK-2SS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvH-J4-5cI">
+                                <rect key="frame" x="20" y="437.5" width="62" height="30"/>
+                                <state key="normal" title="选取图片"/>
+                                <connections>
+                                    <action selector="choiceImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="y5B-tD-aJQ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="3lj-0q-KV9">
+                                <rect key="frame" x="20" y="186" width="374" height="143"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="mAE-dX-4ZZ"/>
+                                </constraints>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="填入fidid，多个英文逗号隔开" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qtv-p6-Wps">
+                                <rect key="frame" x="20" y="337" width="224.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="创建成功后的fid" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cUC-Au-GZU">
+                                <rect key="frame" x="20" y="605" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="omp-UP-Z89">
+                                <rect key="frame" x="20" y="469" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="3dO-Cj-jzL"/>
+                                    <constraint firstAttribute="width" constant="70" id="wIh-2Q-822"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4e2-fL-Qdc">
+                                <rect key="frame" x="122" y="437.5" width="272" height="101.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enF-Yc-Tp3">
+                                <rect key="frame" x="317" y="567" width="62" height="30"/>
+                                <state key="normal" title="批量上传"/>
+                                <connections>
+                                    <action selector="allUpload:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Si-0A-bnX"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qtv-p6-Wps" firstAttribute="leading" secondItem="3lj-0q-KV9" secondAttribute="leading" id="5yE-QC-zAi"/>
+                            <constraint firstItem="3lj-0q-KV9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6Ka-38-AIw"/>
+                            <constraint firstItem="nKm-B0-O84" firstAttribute="top" secondItem="Wqa-at-f7I" secondAttribute="top" id="6lR-QR-s16"/>
+                            <constraint firstItem="enF-Yc-Tp3" firstAttribute="top" secondItem="4e2-fL-Qdc" secondAttribute="bottom" constant="28" id="7kM-0v-wxJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="t09-v2-mnb" secondAttribute="trailing" symbolic="YES" id="AII-iS-Yg8"/>
+                            <constraint firstItem="4e2-fL-Qdc" firstAttribute="bottom" secondItem="omp-UP-Z89" secondAttribute="bottom" id="AT0-LJ-hjI"/>
+                            <constraint firstItem="aco-mX-fZn" firstAttribute="top" secondItem="omp-UP-Z89" secondAttribute="bottom" constant="28" id="CpS-7o-MEy"/>
+                            <constraint firstItem="BUh-ja-Ba3" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="44" id="FgT-l2-hDQ"/>
+                            <constraint firstItem="Wqa-at-f7I" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="MEU-KE-WNs"/>
+                            <constraint firstItem="cUC-Au-GZU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="OKP-1Z-gYO"/>
+                            <constraint firstItem="4e2-fL-Qdc" firstAttribute="top" secondItem="vvH-J4-5cI" secondAttribute="top" id="OOp-tJ-urx"/>
+                            <constraint firstItem="aco-mX-fZn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="PHp-Iw-F8U"/>
+                            <constraint firstItem="vvH-J4-5cI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ReZ-yo-Cg6"/>
+                            <constraint firstItem="BUh-ja-Ba3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="TNg-nn-aci"/>
+                            <constraint firstItem="qtv-p6-Wps" firstAttribute="top" secondItem="3lj-0q-KV9" secondAttribute="bottom" constant="8" id="UEi-e9-4nm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cUC-Au-GZU" secondAttribute="trailing" constant="20" id="ZVS-0O-qs2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nKm-B0-O84" secondAttribute="trailing" constant="20" id="e8v-ln-rp4"/>
+                            <constraint firstItem="vvH-J4-5cI" firstAttribute="top" secondItem="Wqa-at-f7I" secondAttribute="bottom" constant="30" id="fJO-Qn-Wq8"/>
+                            <constraint firstItem="fRr-su-AM7" firstAttribute="top" secondItem="t09-v2-mnb" secondAttribute="top" id="fhB-T6-OhQ"/>
+                            <constraint firstItem="cUC-Au-GZU" firstAttribute="top" secondItem="aco-mX-fZn" secondAttribute="bottom" constant="8" id="gsV-F9-dNT"/>
+                            <constraint firstItem="4e2-fL-Qdc" firstAttribute="leading" secondItem="omp-UP-Z89" secondAttribute="trailing" constant="32" id="iJ3-7Y-SMS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="enF-Yc-Tp3" secondAttribute="trailing" constant="35" id="jE8-A8-kmh"/>
+                            <constraint firstItem="Wqa-at-f7I" firstAttribute="top" secondItem="qtv-p6-Wps" secondAttribute="bottom" constant="20" id="jG9-b5-GKZ"/>
+                            <constraint firstItem="omp-UP-Z89" firstAttribute="top" secondItem="vvH-J4-5cI" secondAttribute="bottom" constant="1.5" id="jwr-jl-iwh"/>
+                            <constraint firstItem="Xld-V1-0Ff" firstAttribute="top" secondItem="Wqa-at-f7I" secondAttribute="top" id="kaE-rK-yKF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bDs-ng-dDk" secondAttribute="trailing" constant="20" id="ksq-ol-xgD"/>
+                            <constraint firstItem="omp-UP-Z89" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="oGP-Yr-4dB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3lj-0q-KV9" secondAttribute="trailing" constant="20" id="oKd-26-2P6"/>
+                            <constraint firstItem="t09-v2-mnb" firstAttribute="leading" secondItem="BUh-ja-Ba3" secondAttribute="leading" id="p7h-rL-3Jo"/>
+                            <constraint firstItem="Xld-V1-0Ff" firstAttribute="leading" secondItem="Wqa-at-f7I" secondAttribute="trailing" constant="10" id="q4V-0K-w85"/>
+                            <constraint firstItem="3lj-0q-KV9" firstAttribute="top" secondItem="t09-v2-mnb" secondAttribute="bottom" constant="30" id="rMz-vj-Yd7"/>
+                            <constraint firstItem="bDs-ng-dDk" firstAttribute="top" secondItem="BUh-ja-Ba3" secondAttribute="top" id="sN4-A8-wrT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4e2-fL-Qdc" secondAttribute="trailing" constant="20" id="w1n-Tc-F2H"/>
+                            <constraint firstItem="fRr-su-AM7" firstAttribute="trailing" secondItem="bDs-ng-dDk" secondAttribute="trailing" id="ySx-WI-t8m"/>
+                            <constraint firstItem="t09-v2-mnb" firstAttribute="top" secondItem="BUh-ja-Ba3" secondAttribute="bottom" constant="8" id="z15-2g-bAc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="choiceImageView" destination="omp-UP-Z89" id="cFt-Ud-IVT"/>
+                        <outlet property="createFinishInfoTF" destination="cUC-Au-GZU" id="wd9-2F-al3"/>
+                        <outlet property="fidsTV" destination="3lj-0q-KV9" id="bO8-UH-8c5"/>
+                        <outlet property="imageInfoTV" destination="4e2-fL-Qdc" id="vQh-Xx-ONx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="84.375"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_root_view"
+    android:layout_width="140dip"
+    android:layout_height="120dip"
+    android:background="@drawable/shape_dialog"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="0dp">
+
+    <ProgressBar
+        android:id="@+id/dialog_loading_pbar"
+        style="@style/MyProgressBar"
+        android:layout_width="35dp"
+        android:layout_height="35dp" />
+
+    <TextView
+        android:id="@+id/dialog_loading_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="请稍后"
+        android:textColor="#ffffff"
+        android:textSize="17dp" />
+
+</LinearLayout>

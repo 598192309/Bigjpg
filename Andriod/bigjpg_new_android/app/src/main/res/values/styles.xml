@@ -1,0 +1,169 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:windowBackground">@color/app_bg</item>
+        <item name="colorControlNormal">@color/colorPrimary</item>
+    </style>
+
+    <style name="MainTheme" parent="AppTheme">
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@color/splash_bg</item>
+        <item name="android:windowAnimationStyle">@style/NoAnimation</item>
+    </style>
+
+    <style name="NoAnimation">
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+    </style>
+
+    <style name="MainTabIcon">
+        <item name="tipBackgroundColor">#FA5251</item>
+        <item name="dotOvalPadding">5.6dp</item>
+        <item name="textDotRadius">8.6dp</item>
+        <item name="drawableLabelGap">2dp</item>
+        <item name="tipDotRadius">4.5dp</item>
+        <item name="tipTextSize">12dp</item>
+        <item name="drawableHeight">24dp</item>
+        <item name="drawableWidth">24dp</item>
+    </style>
+
+
+    <style name="BaseDialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimAmount">0.45</item>
+    </style>
+
+    <style name="RoundCornerDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="MyProgressBar" parent="Base.Widget.AppCompat.ProgressBar"/>
+
+
+    <style name="AppBarLayout">
+        <item name="elevation">0dp</item>
+        <item name="android:background">@color/toolbar_bg</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="colorControlNormal">@color/white</item>
+        <item name="colorControlHighlight">#666666</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+    </style>
+
+    <style name="Toolbar">
+        <item name="navigationIcon">@drawable/ic_arrow_back_svg</item>
+        <item name="contentInsetStart">-10dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AlertDialogTitle">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="CommonButton">
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="LargeButton" parent="CommonButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="GrayLargeButton" parent="LargeButton">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_round_border_bg</item>
+    </style>
+
+    <style name="RedLargeButton" parent="LargeButton">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:background">@drawable/btn_red</item>
+    </style>
+    <style name="GreenLargeButton" parent="LargeButton">
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:background">@drawable/btn_green</item>
+    </style>
+
+    <style name="RadioButton">
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="ListViewCommon">
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item>
+    </style>
+
+    <style name="RecyclerViewCommon">
+        <item name="android:scrollbars">none</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+    <style name="ScrollViewCommon">
+        <item name="android:scrollbars">none</item>
+        <item name="android:dividerHeight">0px</item>
+        <item name="android:listSelector">@color/transparent</item>
+        <item name="android:cacheColorHint">@color/transparent</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:fadingEdgeLength">0dp</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:overScrollMode">never</item>
+    </style>
+
+
+    <!--ImageButton 使用application context 时会inflate出错-->
+    <style name="ImageButton" parent="@style/Base.Widget.AppCompat.Toolbar.Button.Navigation" />
+    
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bigjpg.ui.widget.AppToolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Toolbar"
+    android:id="@+id/tool_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:contentInsetEnd="0dp"
+    android:contentInsetLeft="0dp"
+    android:contentInsetRight="0dp"
+    android:contentInsetStart="0dp"
+    android:theme="@style/AppTheme.AppBarOverlay"
+    app:contentInsetEnd="0dp"
+    app:contentInsetLeft="0dp"
+    app:contentInsetRight="0dp"
+    app:contentInsetStart="0dp"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    app:titleTextAppearance="@style/ToolbarTitleText"
+    app:titleTextColor="@color/text_black">
+
+
+    <TextView
+        android:id="@+id/done"
+        style="@style/ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dp"
+        android:enabled="false"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingRight="12dp"
+        android:text="@string/ok"
+        android:textColor="@color/text_black"
+        android:textSize="14dp" />
+
+</com.bigjpg.ui.widget.AppToolbar>
+

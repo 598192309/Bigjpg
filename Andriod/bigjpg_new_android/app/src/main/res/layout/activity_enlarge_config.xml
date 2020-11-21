@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/pic_type"
+            android:textColor="@color/text_black"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/config_type_carton"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/carton" />
+
+            <RadioButton
+                android:id="@+id/config_type_photo"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="@string/photo" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/upscaling"
+            android:textColor="@color/text_black"
+            android:textSize="17dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/config_x2"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="2x" />
+
+            <RadioButton
+                android:id="@+id/config_x4"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:text="4x" />
+
+            <RadioButton
+                android:id="@+id/config_x8"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="8x" />
+
+            <RadioButton
+                android:id="@+id/config_x16"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="16x" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/config_upgrade"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_round_border_bg"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/upgrade_16"
+            android:textColor="@color/text_black"
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/noise"
+            android:textColor="@color/text_black"
+            android:textSize="17dp" />
+
+        <com.bigjpg.ui.widget.FlowRadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/config_noise_none"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/none" />
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="12dp"
+                android:minWidth="12dp"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/config_noise_low"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/low" />
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="12dp"
+                android:minWidth="12dp"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/config_noise_medium"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mid" />
+
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="12dp"
+                android:minWidth="12dp"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/config_noise_high"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/high" />
+
+            <View
+                android:layout_width="12dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="12dp"
+                android:minWidth="12dp"
+                android:visibility="invisible" />
+
+            <RadioButton
+                android:id="@+id/config_noise_highest"
+                style="@style/RadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/highest" />
+        </com.bigjpg.ui.widget.FlowRadioGroup>
+
+
+        <Button
+            android:id="@+id/config_confirm"
+            style="@style/GreenLargeButton"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/btn_green"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/config_enlarge_all"
+            style="@style/GreenLargeButton"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/text_black"
+            android:background="@drawable/btn_round_border_bg"
+            android:text="@string/batch_btn" />
+    </LinearLayout>
+</ScrollView>

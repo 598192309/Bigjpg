@@ -1,0 +1,111 @@
+apply plugin: 'com.android.application'
+
+def config = rootProject.ext.android
+def bigjpg = rootProject.ext.bigjpg
+def library = rootProject.ext.dependencies
+
+def static packageTime(){
+    return new Date().format("yyyy-MM-dd",TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    compileSdkVersion config.compileSdkVersion
+    defaultConfig {
+        applicationId "com.bigjpg"
+        minSdkVersion config.minSdkVersion
+        targetSdkVersion config.targetSdkVersion
+        versionCode bigjpg.versionCode
+        versionName bigjpg.versionName
+
+        multiDexEnabled true
+        flavorDimensions "versionCode"
+    }
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+
+    signingConfigs {
+        debug {
+            // No debug config
+            storeFile file(MYAPP_RELEASE_STORE_FILE)
+            storePassword MYAPP_RELEASE_STORE_PASSWORD
+            keyAlias MYAPP_RELEASE_KEY_ALIAS
+            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+        }
+        release {
+            storeFile file(MYAPP_RELEASE_STORE_FILE)
+            storePassword MYAPP_RELEASE_STORE_PASSWORD
+            keyAlias MYAPP_RELEASE_KEY_ALIAS
+            keyPassword MYAPP_RELEASE_KEY_PASSWORD
+        }
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "Boolean", "DEBUG_MODE", "false"
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            zipAlignEnabled true
+            signingConfig signingConfigs.release
+
+            applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def outputFile = output.outputFile
+                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                        def fileName
+                        if(variant.buildType.name == "release"){
+                            fileName = "bigjpg_v${defaultConfig.versionName}.apk"
+                        }else{
+                            fileName = "bigjpg_v${defaultConfig.versionName}_${packageTime()}_beta.apk"
+                        }
+                        outputFileName = fileName
+                    }
+                }
+            }
+
+            ndk{
+                abiFilters "armeabi-v7a", "arm64-v8a","x86","x86_64"
+            }
+        }
+
+        debug{
+            buildConfigField "Boolean", "DEBUG_MODE", "true"
+            ndk{
+                abiFilters "armeabi-v7a", "arm64-v8a", "x86","x86_64"
+            }
+        }
+    }
+
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation "com.squareup.retrofit2:retrofit:$library.retrofit"
+    implementation "com.squareup.retrofit2:converter-gson:$library.retrofit"
+    implementation "com.squareup.retrofit2:adapter-rxjava2:$library.retrofit"
+    debugImplementation "com.squareup.leakcanary:leakcanary-android:$library.leakcanary"
+    releaseImplementation "com.squareup.leakcanary:leakcanary-android-no-op:$library.leakcanary"
+    testImplementation "com.squareup.leakcanary:leakcanary-android-no-op:$library.leakcanary"
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation "com.google.code.gson:gson:$library.gson"
+    implementation "com.squareup.okhttp3:okhttp:$library.okhttp"
+    implementation "io.reactivex.rxjava2:rxjava:$library.rxjava"
+    implementation "io.reactivex.rxjava2:rxandroid:$library.rxandroid"
+    implementation "com.jakewharton:butterknife:$library.butterknife"
+    annotationProcessor "com.jakewharton:butterknife-compiler:$library.butterknife"
+    implementation "com.facebook.fresco:fresco:$library.fresco"
+    implementation "com.facebook.fresco:animated-gif:$library.fresco"
+    implementation "com.facebook.fresco:imagepipeline-okhttp3:$library.fresco"
+    implementation "com.aliyun.dpa:oss-android-sdk:$library.aliyun_oss"
+}

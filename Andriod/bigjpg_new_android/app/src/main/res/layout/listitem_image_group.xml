@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bigjpg.ui.widget.BorderLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_transparent_selector"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    app:isConsiderPaddingBottom="false">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/group_image"
+        android:layout_width="@dimen/image_group_item_size"
+        android:layout_height="@dimen/image_group_item_size"
+        app:actualImageScaleType="centerCrop"
+        app:placeholderImageScaleType="fitCenter"
+        app:viewAspectRatio="1.0" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/group_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:lines="1"
+            android:textColor="@color/text_black"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/group_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:textColor="@color/text_gray"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/group_check"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_round_checked"
+        android:visibility="gone" />
+
+</com.bigjpg.ui.widget.BorderLinearLayout>

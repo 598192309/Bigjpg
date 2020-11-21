@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="history_btn_width">90dp</dimen>
+    <dimen name="home_btn_width">90dp</dimen>
+    <dimen name="history_filename_width">75dp</dimen>
+</resources>

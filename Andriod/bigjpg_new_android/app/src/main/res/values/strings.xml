@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Bigjpg 图片放大</string>
+    <string name="permission_tip">请开启存储权限</string>
+    <string name="no_data">no data</string>
+
+    <string name="ch_des">「bigjpg 人工智能」微信公众号会定期推送超超超清美图壁纸插画和黑科技新功能 n(*≧▽≦*)</string>
+    <string name="auto_download">自动下载放大的图片</string>
+    <string name="password_not_same">两次输入的密码不一致</string>
+    <string name="all_image">所有图片</string>
+    <string name="image">图片</string>
+    <string name="no_image">没有图片</string>
+    <string name="no_sdcard">没有sd卡</string>
+    <string name="max_choose_images">最多可选%d张</string>
+    <string name="image_count">%1$s张</string>
+    <string name="network_error">网络错误</string>
+    <string name="press_again_exit">再按一次退出程序</string>
+    <string name="language">语言</string>
+    <string name="night_mode">夜间模式</string>
+
+    <!--configs-->
+
+    <string name="loading">请稍候</string>
+
+    <string name="file">文件</string>
+    <string name="params">参数</string>
+    <string name="version_free">免费版</string>
+    <string name="version_basic">基础版</string>
+    <string name="version_standard">标准版</string>
+    <string name="version_premium">高级版</string>
+
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+
+
+    <string name="reg_new">注册一个新用户</string>
+    <string name="max_limit">只能同时放大 100 张哦</string>
+    <string name="feedback">反馈 &#38; 客服 i@bigjpg.com</string>
+    <string name="photo">照片</string>
+    <string name="over">超过限制</string>
+    <string name="body_title">AI人工智能图片放大</string>
+    <string name="buy_wechatalipay">微信支付</string>
+    <string name="keywords">bigjpg, 智能图片放大, 图片放大, 放大, 消除图片马赛克, waifu, waifu2x, 日本waifu2x, 二次元图片放大, miku放大, 插画放大, 插值放大, PS放大, 神经网络放大, 卷积放大,waifu, waifu2x, waifu2x, miku, CNN, image enlarge, image enlarge , fangda, waifu github, upscaling,Image Super-Resolution Using Deep Convolutional Networks, Chao Dong, Chen Change Loy, Kaiming He, Xiaoou Tang, Anime-style art, PhotoZoom pro, photoshop cc</string>
+    <string name="input_new_password">输入新密码</string>
+    <string name="upgrade">升级</string>
+    <string name="title">Bigjpg - AI人工智能图片无损放大 - 使用人工智能深度卷积神经网络(CNN)无损放大图片</string>
+
+
+    <string name="reset_error">重设密码失败，请重试</string>
+    <string name="pay_again">重新支付</string>
+    <string name="num_limit">免费版同时只能放大两张图片</string>
+    <string name="pay_error">无法支付</string>
+    <string name="retry_sure">确定重试？</string>
+    <string name="save_to">图片保存到</string>
+    <string name="carton">卡通/插画</string>
+    <string name="month_limit">您这个月放大的图片数量已达上限</string>
+    <string name="password_error">密码错误</string>
+    <string name="downloading">下载中...</string>
+    <string name="new_version">有新版本下载</string>
+    <string name="checking">正在检查最新版本</string>
+    <string name="faq">常见问题</string>
+    <string name="user_not_exist">用户不存在</string>
+    <string name="minute">分钟</string>
+    <string name="login_reg">登录/注册</string>
+
+
+    <string name="upload">上传中</string>
+    <string name="app_download">软件下载</string>
+    <string name="batch_btn">批量放大下面所有图片</string>
+    <string name="reset_success">重设密码成功</string>
+    <string name="used">本月已放大：</string>
+    <string name="send_email">发送重置邮件</string>
+    <string name="finish">已完成</string>
+    <string name="download">下载</string>
+    <string name="lng">简体中文</string>
+    <string name="retry">重试</string>
+    <string name="upgrade_err">升级可放大8倍/16倍，速度更快！</string>
+
+    <string name="batch_download">批量下载</string>
+    <string name="qr_pay">请保存二维码后，用 微信或支付宝 扫码支付</string>
+    <string name="limit">图片限制：文件大小 10MB，尺寸 3000x3000px</string>
+    <string name="donate">赞助</string>
+    <string name="noise">降噪程度</string>
+    <string name="sendmail">请发送邮件到 i@bigjpg.com</string>
+    <string name="close_alert">关闭并重新打开网页后，已注册的用户可以在历史记录中查看放大图片，而未注册用户则会丢失还未下载的图片。</string>
+    <string name="expire">已过期</string>
+    <string name="logout">退出</string>
+    <string name="pic_type">图片类型</string>
+    <string name="no_upgrade">点击登录查看放大记录</string>
+    <string name="about">约</string>
+    <string name="pay_result">支付结果</string>
+    <string name="link_expire">链接已经过期，请重新获取</string>
+    <string name="login_inquery">想要放大图片更快、更多、更稳定? 登录!</string>
+    <string name="not_notify">不再提示</string>
+    <string name="upload_error">图片上传错误，请重试</string>
+    <string name="username_like">输入正确"邮箱"如 123@qq.com</string>
+
+
+    <string name="change_password">修改密码</string>
+    <string name="upgrade_16">升级后可放大8倍/16倍</string>
+    <string name="begin_download">开始下载</string>
+    <string name="buy_paypal">Paypal支付</string>
+    <string name="save_qr_pay">保存二维码</string>
+    <string name="cancel">取消</string>
+    <string name="log">放大历史</string>
+    <string name="visit">访问 bigjpg.com 官网</string>
+    <string name="low">低</string>
+    <string name="until">到</string>
+    <string name="no_succ">失败</string>
+    <string name="configure">放大配置</string>
+
+    <string name="size_limit">图片大小/尺寸超过限制</string>
+    <string name="retrying">重试中</string>
+    <string name="ok">确定</string>
+    <string name="highest">最高</string>
+    <string name="reset">忘记密码？</string>
+    <string name="none">无</string>
+    <string name="buy_wechat">微信支付</string>
+    <string name="del">删除</string>
+    <string name="error">操作出错，请重试</string>
+    <string name="app_qr_scan">扫码下载 bigjpg.com App</string>
+    <string name="fileupload">选择文件</string>
+    <string name="conf">设置</string>
+    <string name="scan">微信扫码</string>
+    <string name="process">放大中</string>
+    <string name="demo">示例图片</string>
+    <string name="share">分享 bigjpg.com</string>
+    <string name="high">高</string>
+    <string name="pay_help">你可以添加客服微信 <span class="label label-primary">millmiler</span> 让客服姐姐帮助你哦 :-)</string>
+    <string name="check_email">请登陆邮箱查收重置密码邮件</string>
+
+    <string name="again">再次输入新密码</string>
+    <string name="new_password">新密码</string>
+    <string name="mid">中</string>
+    <string name="hot">最多人选择</string>
+    <string name="begin">开始</string>
+    <string name="sure">确定删除？</string>
+    <string name="description">Bigjpg - 使用开源waifu2x人工智能深度卷积神经网络（CNN）智能无损免费放大图片，可放大4K级超高清分辨率（4000x4000）图片，最大32倍放大,效果秒杀PhotoZoom放大。</string>
+    <string name="alert">提示</string>
+    <string name="input_username">输入账号</string>
+    <string name="succ">成功</string>
+    <string name="plz_login">请登录后再购买</string>
+    <string name="pay_succ">支付成功</string>
+    <string name="type_error">图片格式异常</string>
+    <string name="contact">反馈  &#38; 客服</string>
+    <string name="upscaling">放大倍数</string>
+    <string name="fail">放大失败</string>
+    <string name="buy_alipay">支付宝支付</string>
+
+
+
+</resources>

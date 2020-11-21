@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bigjpg.ui.widget.TitleBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AppBarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppTheme.AppBarOverlay">
+
+    <com.bigjpg.ui.widget.AppToolbar
+        android:id="@+id/tool_bar"
+        style="@style/Toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:titleTextColor="@color/text_black"
+        app:titleTextAppearance="@style/ToolbarTitleText"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+</com.bigjpg.ui.widget.TitleBarLayout>

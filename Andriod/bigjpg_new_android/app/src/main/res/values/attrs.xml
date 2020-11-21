@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CompoundButton">
+        <attr name="android:button" />
+        <attr name="drawableWidth" />
+        <attr name="drawableHeight" />
+    </declare-styleable>
+
+    <declare-styleable name="IconTabItem">
+        <attr name="tipBackgroundColor" format="color" />
+        <attr name="tipTextColor" format="color" />
+        <attr name="tipTextSize" format="dimension" />
+        <attr name="tipDotRadius" format="dimension" />
+        <attr name="textDotRadius" format="dimension" />
+        <attr name="drawableLabelGap" format="dimension" />
+        <attr name="tipTextDotTopMargin" format="dimension" />
+        <attr name="tipTextDotRightMargin" format="dimension" />
+        <attr name="tipDotTopMargin" format="dimension" />
+        <attr name="tipDotRightMargin" format="dimension" />
+        <attr name="dotOvalPadding" format="dimension" />
+        <attr name="checkable" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LineLayout">
+        <attr name="isConsiderPaddingTop" format="boolean" />
+        <attr name="isConsiderPaddingLeft" format="boolean" />
+        <attr name="isConsiderPaddingRight" format="boolean" />
+        <attr name="isConsiderPaddingBottom" format="boolean" />
+        <attr name="lineColor" format="color" />
+        <attr name="isTopLineVisible" format="boolean" />
+        <attr name="isLeftLineVisible" format="boolean" />
+        <attr name="isRightLineVisible" format="boolean" />
+        <attr name="isBottomLineVisible" format="boolean" />
+        <attr name="lineWidth" format="dimension" />
+        <attr name="lineMarginLeft" format="dimension" />
+        <attr name="lineMarginRight" format="dimension" />
+        <attr name="topLineMarginLeft" format="dimension" />
+        <attr name="topLineMarginRight" format="dimension" />
+        <attr name="bottomLineMarginLeft" format="dimension" />
+        <attr name="bottomLineMarginRight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CornerLabelView">
+        <attr name="side_length" format="dimension" />
+        <attr name="margin_lean_side" format="dimension" />
+        <attr name="bg_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="position">
+            <enum name="right_top" value="0" />
+            <enum name="right_bottom" value="1" />
+            <enum name="left_bottom" value="2" />
+            <enum name="left_top" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

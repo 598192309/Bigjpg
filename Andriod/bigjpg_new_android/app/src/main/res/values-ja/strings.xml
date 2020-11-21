@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Bigjpg 画像の拡大</string>
+    <string name="permission_tip">Storage permissions required</string>
+    <string name="no_data">データがありません</string>
+
+    <string name="ch_des">des</string>
+    <string name="auto_download">拡大画像を自動的にダウンロードします</string>
+    <string name="password_not_same">二回入力したパスワードが一致しません</string>
+    <string name="all_image">すべての画像</string>
+    <string name="image">画像</string>
+    <string name="no_image">画像がありません</string>
+    <string name="no_sdcard">sdcardがありません</string>
+    <string name="max_choose_images">最大%d枚</string>
+    <string name="image_count">%1$s枚</string>
+    <string name="network_error">ネットワークエラー</string>
+    <string name="press_again_exit">もう一度押すとアプリが終了します</string>
+    <string name="language">言語</string>
+    <string name="night_mode">ナイトモード</string>
+
+    <string name="loading">Loading</string>
+    <string name="file">ファイル名</string>
+    <string name="params">設定</string>
+    <string name="version_free">無料版</string>
+    <string name="version_basic">基本版</string>
+    <string name="version_standard">標準版</string>
+    <string name="version_premium">高級版</string>
+    <string name="email">電子メール・アドレス</string>
+    <string name="password">パスワード</string>
+
+
+    <string name="reg_new">新しいBigjpgアカウントを作成する</string>
+    <string name="max_limit">最大100枚の画像が同時に処理されます</string>
+    <string name="feedback">フィードバックと連絡先 i@bigjpg.com</string>
+    <string name="photo">写真</string>
+    <string name="over">Over Size</string>
+    <string name="body_title">AI二次元画像の拡大</string>
+    <string name="buy_wechatalipay">WeChat Pay</string>
+    <string name="keywords">bigjpg, アニメ, 画像, 写真, イラスト, 高品質, 画像処理, 人工知能, Waifu2x, 拡大, 一括処理, 超解像, PhotoZoom pro, photoshop cc</string>
+    <string name="input_new_password">新しいパスワードを入力してください</string>
+    <string name="upgrade">アップグレード</string>
+    <string name="title">Bigjpg - AI二次元画像の拡大, スマート大きな画像 waifu2x 畳み込み深人工知能ニューラルネットワーク（CNN）無料ロスレスズーム。写真にも対応。</string>
+
+
+    <string name="reset_error">パスワードのリセットに失敗しました。もう一度お試しください</string>
+    <string name="pay_again">リトライ</string>
+    <string name="num_limit">無料版のみは同時に2つの画像を処理することができます</string>
+    <string name="pay_error">問題に遭遇する</string>
+    <string name="retry_sure">再試行を確認しますか？</string>
+    <string name="save_to">に保存された画像</string>
+    <string name="carton">イラスト</string>
+    <string name="month_limit">あなたが拡大した写真の数は今月の限度に達しています</string>
+    <string name="password_error">パスワードエラー</string>
+    <string name="downloading">ダウンロード...</string>
+    <string name="new_version">新しいバージョンが利用可能</string>
+    <string name="checking">最新バージョンの確認</string>
+    <string name="faq">よくある質問</string>
+    <string name="user_not_exist">ユーザーは存在しません</string>
+    <string name="minute">分</string>
+    <string name="login_reg">ログイン 、サインアップ</string>
+
+
+    <string name="upload">アップロード</string>
+    <string name="app_download">App Download</string>
+    <string name="batch_btn">下のすべての画像を拡大</string>
+    <string name="reset_success">パスワードの成功をリセットする</string>
+    <string name="used">今月使用した：</string>
+    <string name="send_email">リセットメールを送信</string>
+    <string name="finish">完成した</string>
+    <string name="download">ダウンロード</string>
+    <string name="lng">日本語</string>
+    <string name="retry">リトライ</string>
+    <string name="upgrade_err">アップグレード後にあなたの8x / 16xによって、非常に速く拡大することができます！</string>
+
+
+    <string name="batch_download">すべてをダウンロードする</string>
+    <string name="qr_pay">After save this QR, use Wechat or Alipay app to scan</string>
+    <string name="limit">限界：ファイルサイズ 10MB，解像度 3000x3000px</string>
+    <string name="donate">私たちを賛助</string>
+    <string name="noise">ノイズ除去</string>
+    <string name="sendmail">メールをi@bigjpg.comに送ってください</string>
+    <string name="close_alert">消して再びホームページを開けて後、登録済みのユーザーは歴史の記録に拡大写真を調べ、未登録ユーザーはまだダウンロードの画像を失ってしまう。</string>
+    <string name="expire">期限切れ</string>
+    <string name="logout">ログアウト</string>
+    <string name="pic_type">画像のタイプ</string>
+    <string name="no_upgrade">拡大履歴を表示するには最初にログインしてください</string>
+    <string name="about">約</string>
+    <string name="pay_result">支払い結果</string>
+    <string name="link_expire">リセットリンクが有効期限切れです、取得してください</string>
+    <string name="login_inquery">より高速でかつ安定により多くの絵を拡大したいですか？ログイン！</string>
+    <string name="not_notify">このバージョンをスキップ</string>
+    <string name="upload_error">アップロードエラーです。再試行してください</string>
+    <string name="username_like">Please input a valid email</string>
+
+
+    <string name="change_password">パスワードの変更</string>
+    <string name="upgrade_16">8x/16xにしたいですか？アップグレード！</string>
+    <string name="begin_download">ダウンロードを開始</string>
+    <string name="buy_paypal">Paypal Payment</string>
+    <string name="save_qr_pay">QRを保存する</string>
+    <string name="cancel">キャンセル</string>
+    <string name="log">拡大歴史</string>
+    <string name="visit">bigjpg.comにアクセス</string>
+    <string name="low">低</string>
+    <string name="until">Until</string>
+    <string name="no_succ">失敗</string>
+    <string name="configure">設定</string>
+
+    <string name="size_limit">画像サイズ超過</string>
+    <string name="retrying">リトライ</string>
+    <string name="ok">確定</string>
+    <string name="highest">最高</string>
+    <string name="reset">パスワードをお忘れですか？</string>
+    <string name="none">無</string>
+    <string name="buy_wechat">WeChat Payment</string>
+    <string name="del">削除</string>
+    <string name="error">エラー、再試行してください</string>
+    <string name="app_qr_scan">bigjpg.comアプリをダウンロードするにはqrをスキャンしてください</string>
+    <string name="fileupload">ファイルの選択</string>
+    <string name="conf">設定</string>
+    <string name="scan">Use WeChat to Scan</string>
+    <string name="process">ズームイン</string>
+    <string name="demo">デモの画像</string>
+    <string name="share">Share bigjpg.com</string>
+    <string name="high">高</string>
+    <string name="pay_help">You can transfer to our Paypal <span class="label label-primary">isxieyang@gmail.com</span> , we will upgrade your bigjpg account :-)</string>
+    <string name="check_email">メールを確認してください</string>
+
+    <string name="again">新しいパスワード入力再入力</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="mid">中</string>
+    <string name="hot">超人気</string>
+    <string name="begin">開始</string>
+    <string name="sure">削除します？</string>
+    <string name="description">Bigjpg - オープンソースの人工知能の深さを使用waifu2xくりこみ神経ネットワーク（ＣＮＮ）知能ロスレス無料に拡大写真を大きくすることができ、4 K級の超高清の解像度（4000x4000）写真、最大32倍拡大、効果は秒殺PhotoZoom増幅。</string>
+    <string name="alert">ヒント</string>
+    <string name="input_username">あなたのアカウントを入力してください</string>
+    <string name="succ">成功</string>
+    <string name="plz_login">最初にログインしてください</string>
+    <string name="pay_succ">支払い成功</string>
+    <string name="type_error">ピクチャタイプエラー</string>
+    <string name="contact">フィードバック</string>
+    <string name="upscaling">拡大</string>
+    <string name="fail">失敗</string>
+    <string name="buy_alipay">Alipay Payment</string>
+
+</resources>

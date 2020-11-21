@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/auto_download_cb"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/transparent"
+        android:textColor="@color/text_black"
+        android:text="@string/auto_download"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/line0_color" />
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/night_mode"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textColor="@color/text_black"
+        android:background="@color/transparent"
+        android:text="@string/night_mode"
+        android:textSize="17dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/line0_color" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:textColor="@color/text_gray"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/language_switch"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/list_item_transparent_selector"
+        android:gravity="center_vertical"
+        android:text="@string/lng"
+        android:textColor="@color/text_black"
+        android:textSize="17dp" />
+
+
+</LinearLayout>

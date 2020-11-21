@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/task_image"
+            android:layout_width="@dimen/task_image_size"
+            android:layout_height="@dimen/task_image_size"
+            app:placeholderImage="@color/light_gray"
+            app:placeholderImageScaleType="fitCenter"
+            app:roundedCornerRadius="4dp" />
+
+        <TextView
+            android:id="@+id/task_status"
+            android:layout_width="@dimen/task_image_size"
+            android:layout_height="@dimen/task_image_size"
+            android:background="@drawable/shape_half_transparent"
+            android:gravity="center"
+            android:text="@string/process"
+            android:textColor="@color/text_white"
+            android:textSize="14dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/task_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="2dp"
+            android:indeterminate="false"
+            android:max="100"
+            tools:progress="56" />
+
+        <TextView
+            android:id="@+id/task_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/text_black"
+            android:textSize="14dp"
+            tools:text="1222222222" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="33dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/task_download"
+                android:layout_width="@dimen/home_btn_width"
+                android:layout_height="32dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_green"
+                android:gravity="center"
+                android:text="@string/download"
+                android:visibility="gone"
+                android:textColor="@color/text_white"
+                android:textSize="14dp" />
+
+
+            <TextView
+                android:id="@+id/task_retry"
+                android:layout_width="@dimen/home_btn_width"
+                android:layout_height="32dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_yellow"
+                android:gravity="center"
+                android:text="@string/retry"
+                android:textColor="@color/text_white"
+                android:textSize="14dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/task_enlarge"
+                android:layout_width="@dimen/home_btn_width"
+                android:layout_height="32dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_green"
+                android:gravity="center"
+                android:text="@string/begin"
+                android:textColor="@color/text_white"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/task_delete"
+                android:layout_width="@dimen/home_btn_width"
+                android:layout_height="32dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/btn_red"
+                android:gravity="center"
+                android:text="@string/del"
+                android:visibility="gone"
+                android:textColor="@color/text_white"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

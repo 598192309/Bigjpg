@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bigjpg.ui.widget.BorderLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    app:isConsiderPaddingBottom="false"
+    android:padding="10dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/history_image"
+            android:layout_width="@dimen/history_image_size"
+            android:layout_height="@dimen/history_image_size"
+            app:placeholderImage="@color/light_gray"
+            app:placeholderImageScaleType="fitCenter"
+            app:roundedCornerRadius="4dp" />
+
+        <TextView
+            android:id="@+id/history_status"
+            android:layout_width="@dimen/history_image_size"
+            android:layout_height="@dimen/history_image_size"
+            android:background="@drawable/shape_half_transparent"
+            android:gravity="center"
+            android:text="@string/process"
+            android:textColor="@color/text_white"
+            android:textSize="14dp"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/history_config"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:maxLines="3"
+        android:textColor="@color/text_deep_gray"
+        android:textSize="15dp"
+        tools:text="1312312313213123" />
+
+
+    <LinearLayout
+        android:id="@+id/history_buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/history_download"
+            android:layout_width="@dimen/history_btn_width"
+            android:layout_height="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_green"
+            android:gravity="center"
+            android:text="@string/download"
+            android:textColor="@color/text_white"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/history_retry"
+            android:layout_width="@dimen/history_btn_width"
+            android:layout_height="32dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/btn_yellow"
+            android:gravity="center"
+            android:text="@string/retry"
+            android:textColor="@color/text_white"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/history_delete"
+            android:layout_width="@dimen/history_btn_width"
+            android:layout_height="32dp"
+            android:background="@drawable/btn_red"
+            android:gravity="center"
+            android:text="@string/del"
+            android:textColor="@color/text_white"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/history_cb"
+        android:layout_width="@dimen/history_btn_width"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <CheckBox
+            android:id="@+id/history_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </FrameLayout>
+</com.bigjpg.ui.widget.BorderLinearLayout>

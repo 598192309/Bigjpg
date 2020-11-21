@@ -1,7 +1,0 @@
-${PODS_ROOT}/Target Support Files/Pods-Bigjpg_iOS/Pods-Bigjpg_iOS-frameworks.sh
-${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
-${BUILT_PRODUCTS_DIR}/AliyunOSSiOS/AliyunOSSiOS.framework
-${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework
-${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework
-${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
-${BUILT_PRODUCTS_DIR}/ZLPhotoBrowser/ZLPhotoBrowser.framework
